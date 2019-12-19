@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#headerBackground{
+    background-color: darkcyan;
+}
+
+#headerContent{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+    font-size: 250%;
+}
