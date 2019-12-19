@@ -2,8 +2,9 @@
   "name": "calendarelectron",
   "version": "1.0.0",
   "description": "Calendar app using ElectronJS",
-  "main": "\u001b[D\u001b[D\u001b[D\u001bapp.js)\u001b[3~\u001b[\u001b[C\u001b",
+  "main": "server/app.js",
   "scripts": {
+    "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
