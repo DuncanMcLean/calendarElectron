@@ -1,10 +1,12 @@
 body{
     margin: 0;
     padding: 0;
+    width: 100%;
 }
 
 #headerBackground{
-    background-color: darkcyan;
+    width: 100%;
+    background-color: darkslategrey;
 }
 
 #headerContent{
@@ -17,4 +19,31 @@ body{
 #login{
     padding-top: 7%;
     text-align: center;
+}
+
+#footerBackground{
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    padding-top: 5%;
+    justify-content: center;
+    display: flex;
+    background-color: darkslategrey;
+}
+
+#footerContent{
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+}
+
+#githubLink{
+    color: white;
+    text-decoration: none;
+}
+
+#githubLink :hover{
+    color: black;
+    background-color: white;
 }
